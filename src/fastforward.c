@@ -37,6 +37,8 @@ FEATURE("timescale")
 
 REQUIRE_GAMEDATA(vtidx_RunFrame)
 REQUIRE_GAMEDATA(vtidx_Frame)
+REQUIRE_GAMEDATA(vtidx_GetRealTime)
+REQUIRE_GAMEDATA(vtidx_HostFrameTime)
 
 typedef void (*Host_AccumulateTime_func)(float dt);
 static Host_AccumulateTime_func orig_Host_AccumulateTime;
